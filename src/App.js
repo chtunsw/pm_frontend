@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
-import HomePage from "./pages/HomePage.js"
-import LoginPage from "./pages/LoginPage"
-import AdminPage from "./pages/AdminPage"
-import StaffPage from "./pages/StaffPage"
+import HomePage from "./pages/HomePage.js";
+import LoginPage from "./pages/LoginPage";
+import AdminPage from "./pages/AdminPage";
+import StaffPage from "./pages/StaffPage";
 
 function App() {
   return (

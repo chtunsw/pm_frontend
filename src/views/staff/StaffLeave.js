@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const Wrapper = styled.div``;
 
-const HomePage = () => {
-  return <Wrapper>home page</Wrapper>;
+const StaffLeave = () => {
+  return <Wrapper>staff leave</Wrapper>;
 };
 
-export default HomePage;
+export default StaffLeave;

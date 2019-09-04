@@ -1,4 +1,6 @@
-const user = (state = {}, action) => {
+const initialState = {};
+
+const user = (state = initialState, action) => {
   switch (action.type) {
     case "CHANGE_USER_NAME":
       return {
